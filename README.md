@@ -1,4 +1,4 @@
-# UPRRP PROYECTS
+# UPRRP PROJECTS
 ![alt text](https://github.com/ChrisMichaelPerezSantiago/UPRRP-PROYECTS/blob/master/img/urp-rp.png)
 
 
