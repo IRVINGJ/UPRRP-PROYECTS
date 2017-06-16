@@ -1,4 +1,4 @@
-# Study Guide | UPRRP Departments
+#  Natural Sciences | UPR-RP
 
 
 **Author**
