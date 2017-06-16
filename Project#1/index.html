@@ -5,47 +5,59 @@
     <title>Study Guide | UPRRP Departments</title>
 
 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.css">
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.css">
     <link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/components/menu.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="/Semantic-UI-CSS-master/semantic.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.7/semantic.min.js"></script>
+    <script src="js/scripts.js"></script>
 
   </head>
   <body>
 
-    <!-- ITEM LOGO -->
-    <div class="ui stackable container top fixed menu">
-      <div class="item">
-        <img src="" alt=""> <!-- TODO Logo -->
-      </div>
 
-      <!-- CONTENT OF THE MENU -->
-      <a class="item" href="index.html"><i class="grid home icon"></i>Home</a>
+    <div class="ui main text container">
+      <h1 class="ui header">Info Header</h1> <!-- only testing -->
+      <p>Information</p> <!-- only testing -->
+    </div>
 
 
-      <!-- DROPDOWN MENU -->
-      <div class="ui simple dropdown item">
-        Departments<i class="dropdown icon"></i>
-        <div class="menu">
-          <div class="item">Computer Science</div>
-          <div class="item">Math</div>
-          <div class="item">Chemistry</div>
-          <div class="item">Biology</div>
-          <div class="item">Physics</div>
+    <div class="ui borderless main menu">
+      <div class="ui text container">
+        <div href="#" class="header item">
+          <img class="logo" src="#"> <!-- add logo -->
+          Home
         </div>
-      </div>
-
-
-      <!-- SEARCH -->
-      <div class="stackable container top fixed right menu">
-        <div class="item">
-          <div class="ui icon input">
-            <input type="text" placeholder="Search...">
-            <i class="search link icon"></i>
+        <a href="#" class="item">Activities</a>
+        <a href="#" class="item">Articles</a>
+        <a href="#" class="item">Achivements</a>
+        <a href="#" class="ui right floated dropdown item">
+        General information <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item">Undergraduate Research</div>
+            <div class="item">Tutorials</div>
+            <div class="divider"></div>
+            <div class="header">Natural Science</div>
+            <div class="item">
+              <i class="dropdown icon"></i>
+              Departments
+              <div class="menu">
+                <div class="item">Computer Science</div>
+                <div class="item">Math</div>
+                <div class="item">Chemistry</div>
+                <div class="item">Biology</div>
+                <div class="item">Physics</div>
+              </div>
+            </div>
+            <div class="item">Contacts</div>
           </div>
-        </div>
-      </div> <!-- end right menu -->
-    </div> <!-- end container top fixed menu -->
+        </a>
+      </div> <!-- end text container -->
+    </div> <!-- end main menu -->
+
+
 
 
 
